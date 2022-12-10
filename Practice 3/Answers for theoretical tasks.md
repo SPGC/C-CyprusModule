@@ -36,7 +36,7 @@ Honestly, honestly, I'm not a pervert, but that's also possible :)
 
 ## Task 6
  
-Your realisation is dangerous. There can be memory leaks. I rewrote it a bit.
+Your template and `main` are dangerous. There can be memory leaks. I rewrote it a bit.
 Here's `valgrind` with `memcheck` tool output if run your template.
 ```
 (base) ilia@ilia:~/diskD/UCLAN/С++ Cyprus/Practices$ valgrind --tool=memcheck ./Task6
