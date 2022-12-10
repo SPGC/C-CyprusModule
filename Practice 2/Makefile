@@ -92,6 +92,7 @@ clean:
 	rm Task8
 	rm Task9
 	rm Task10
+	rm Task11
 
 
 

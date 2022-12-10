@@ -24,26 +24,6 @@ Task6: obj obj/Task6.o
 	g++ $(CCFLAGS) --std=c++17 -o Task6 obj/Task6.o
 	chmod +x Task6
 
-Task7: obj obj/Task7.o
-	g++ $(CCFLAGS) --std=c++17 -o Task7 obj/Task7.o
-	chmod +x Task7
-
-Task8: obj obj/Task8.o
-	g++ $(CCFLAGS) --std=c++17 -o Task8 obj/Task8.o
-	chmod +x Task8
-
-Task9: obj obj/Task9.o
-	g++ $(CCFLAGS) --std=c++17 -o Task9 obj/Task9.o
-	chmod +x Task9
-
-Task10: obj obj/Task10.o
-	g++ $(CCFLAGS) --std=c++17 -o Task10 obj/Task10.o
-	chmod +x Task10
-
-Task11: obj obj/Task11.o
-	g++ $(CCFLAGS) --std=c++17 -o Task11 obj/Task11.o
-	chmod +x Task11
-
 obj:
 	mkdir obj
 
@@ -65,21 +45,6 @@ obj/Task5.o: src/Task5.cpp
 obj/Task6.o: src/Task6.cpp
 	g++ $(CCFLAGS) --std=c++17 -o obj/Task6.o -c src/Task6.cpp
 
-obj/Task7.o: src/Task7.cpp
-	g++ $(CCFLAGS) --std=c++17 -o obj/Task7.o -c src/Task7.cpp
-
-obj/Task8.o: src/Task8.cpp
-	g++ $(CCFLAGS) --std=c++17 -o obj/Task8.o -c src/Task8.cpp
-
-obj/Task9.o: src/Task9.cpp
-	g++ $(CCFLAGS) --std=c++17 -o obj/Task9.o -c src/Task9.cpp
-
-obj/Task10.o: src/Task10.cpp
-	g++ $(CCFLAGS) --std=c++17 -o obj/Task10.o -c src/Task10.cpp
-
-obj/Task11.o: src/Task11.cpp
-	g++ $(CCFLAGS) --std=c++17 -o obj/Task11.o -c src/Task11.cpp
-
 clean:
 	rm -r obj
 	rm Task1
@@ -88,10 +53,6 @@ clean:
 	rm Task4
 	rm Task5
 	rm Task6
-	rm Task7
-	rm Task8
-	rm Task9
-	rm Task10
 
 
 
